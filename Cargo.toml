@@ -1,0 +1,9 @@
+[package]
+name = "angle_types"
+version = "26.10.24" #Use date format
+authors = ["Quiet Orchestra <quietorchestra@protonmail.com>"]
+license = "MPL-2.0"
+edition = "2024"
+
+[dependencies]
+num-traits = "0.2.19"
