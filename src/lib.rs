@@ -1,6 +1,7 @@
 use num_traits::{Euclid, Float, FloatConst};
+use serde::Serialize;
 
-#[derive(Copy,Clone,Debug)]
+#[derive(Copy, Clone, Debug, Serialize)]
 pub enum Angle<T> {
     Degrees(T),
     Radians(T),

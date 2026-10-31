@@ -7,3 +7,4 @@ edition = "2024"
 
 [dependencies]
 num-traits = "0.2.19"
+serde = { version = "1.0.229", features = ["derive"] }
